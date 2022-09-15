@@ -1,6 +1,6 @@
 @echo off
 setlocal
-SET MODELERPATH="C:\Program Files\IBM\SPSS\Modeler\18.2.2\bin\modelerclient.exe"
+SET MODELERPATH="C:\Program Files\IBM\SPSS\Modeler\18.3\bin\modelerclient.exe"
 
 REM カレントディレクトリの取得
 for /f "usebackq delims=" %%A in (`CHDIR`) do set CDIR=%%A
